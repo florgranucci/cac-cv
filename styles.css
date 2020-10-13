@@ -1,0 +1,348 @@
+html, body {
+    height: 100vh;
+    
+  }
+
+  .intro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+}
+  
+
+  .intro h1 {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    color: #272341;
+    text-align: center;
+  }
+
+  .intro-title b {
+      color: #00C8AD;
+  }
+
+  .intro-title span {
+    font-size: 40px;
+  }
+
+  .intro p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #272341;
+  }
+
+ .btn {
+    color: #00C8AD !important;
+    font-family: Montserrat, sans-serif !important;
+    font-size: 20px !important;
+    
+ }
+
+ .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+ }
+
+ .btn:hover {
+     background-color: #00C8AD !important;
+     color: whitesmoke !important;
+ }
+
+ /*About*/
+.container-fluid {
+  padding: 0 !important;
+}
+
+ .about {
+  background-image: linear-gradient(to left, rgba(255,0,0,0), #00c3acca);
+ }
+
+ .about h2 {
+    font-family: Montserrat, sans-serif;
+    color: rgb(24, 24, 24);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 5rem;
+    text-align: center;
+ }
+
+ .profile img {
+     width: 290px;
+     height: 290px;
+     border-radius: 10rem;
+     border-style: ridge;
+     border-color:#00c8adc2;
+     margin:10px auto;
+     display:block;
+ }
+
+ .profile {
+   padding-top: 3rem;
+ }
+
+
+ .row {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .description p {
+    color: #1d1d1d;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px ;
+    margin:auto;
+    width: 50%;
+    border: solid #00c8adc2;
+    padding: 2rem;
+    
+ }
+
+.button a {
+    color: whitesmoke !important;
+    background-color: #00c3acca;
+    border-style: none;
+    font-size: 18px !important;  
+        
+}
+
+
+.button a:hover {
+    background-color: whitesmoke !important;
+    color: #00c3acca !important;
+}
+
+
+
+.tags h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  border-bottom: 1px solid #cacaca;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.tools {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  padding-bottom: 5rem;
+ 
+}
+
+.fa-js-square {
+background-color: yellow;
+}
+
+.fa-html5 {
+background-color: orangered;
+}
+
+.fa-css3-alt {
+background-color: rgba(38, 38, 236, 0.993);
+}
+
+.fa-bootstrap {
+background-color: #7952B3;
+}
+
+.fa-react {
+background-color: lightskyblue;
+}
+
+.fa-angular {
+background-color: red;
+}
+
+.fa-node {
+background-color: green;
+}
+
+
+/*Projects*/
+
+.card-deck {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
+}
+.projects h2{
+  font-family: Montserrat, sans-serif;
+  color: rgb(24, 24, 24);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 5rem;
+  text-align: center;
+}
+
+
+/*Contact*/
+
+.contact {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #00c3acca);
+  padding-bottom: 5rem;
+}
+
+.send {
+  font-size: 1.5rem;
+  font-family: Segoe UI;
+  font-weight: 300;
+  
+}
+
+.contact h5 {
+  color: #1d1d1d;
+}
+
+.contact form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.contact h2 {
+  font-family: Montserrat, sans-serif;
+    color: rgb(24, 24, 24);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+ /* foundation icons */
+
+ .rounded-social-buttons {
+  text-align: center;
+  padding: 3rem;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.120rem;
+  height: 3.120rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5620rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background:  #00c3acca;
+}
+
+.rounded-social-buttons .social-button.facebook:before {
+  font-family: "FontAwesome";
+}
+
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background:  #00c3acca;
+}
+
+.rounded-social-buttons .social-button.twitter:before {
+  font-family: "FontAwesome";
+}
+
+.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background:  #00c3acca;
+}
+
+.rounded-social-buttons .social-button.linkedin:before {
+  font-family: "FontAwesome";
+}
+
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background:  #00c3acca;
+}
+
+.rounded-social-buttons .social-button.instagram:before {
+  font-family: "FontAwesome";
+}
+
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+.rounded-social-buttons .social-button.github {
+  background:  #00c3acca;
+}
+
+.rounded-social-buttons .social-button.github:before {
+  font-family: "FontAwesome";
+}
+
+.rounded-social-buttons .social-button.github:hover,
+.rounded-social-buttons .social-button.github:focus {
+  color: #000000;
+  background: #ffffff;
+  border-color: #000000;
+}
+/*Footer*/
+.footer {
+  background-color: #00c3acca;
+  background-size: cover;
+}
+
+.copyright p {
+  text-align: center;
+}
