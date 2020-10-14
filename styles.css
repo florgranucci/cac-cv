@@ -91,6 +91,7 @@ html, body {
 
  .profile {
    padding-top: 3rem;
+   padding-bottom: 3rem;
  }
 
 
@@ -107,7 +108,6 @@ html, body {
     font-size: 20px ;
     margin:auto;
     width: 50%;
-    border: solid #00c8adc2;
     padding: 2rem;
     
  }
@@ -139,11 +139,13 @@ html, body {
 }
 
 .tools {
-  text-align: center;
-  list-style: none;
-  display: flex;
   padding-bottom: 5rem;
- 
+  text-align: center;
+}
+
+.skills {
+  padding-bottom: 5rem;
+  text-align: center;
 }
 
 .fa-js-square {
@@ -151,7 +153,7 @@ background-color: yellow;
 }
 
 .fa-html5 {
-background-color: orangered;
+background-color: #ff922b;
 }
 
 .fa-css3-alt {
@@ -173,6 +175,12 @@ background-color: red;
 .fa-node {
 background-color: green;
 }
+
+.chip {
+  font-size: 1.2rem !important;
+}
+
+
 
 
 /*Projects*/
@@ -200,24 +208,45 @@ background-color: green;
   padding-bottom: 5rem;
 }
 
-.send {
-  font-size: 1.5rem;
-  font-family: Segoe UI;
-  font-weight: 300;
-  
+.calendly a {
+  color: #106e62f8;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.calendly p {
+  color: #106e62f8;
+  font-family: Montserrat, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.calendly h3 {
+  color: #106e62f8;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.calendly a:hover {
+  color: #00C8AD;
 }
 
 .contact h5 {
   color: #1d1d1d;
 }
 
-.contact form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  
+.container form {
+  width: 60%;
+  padding: 3rem;
 }
+
+form {
+  margin: 0 auto;
+}
+
 
 .contact h2 {
   font-family: Montserrat, sans-serif;
@@ -228,6 +257,13 @@ background-color: green;
     padding-top: 5rem;
     text-align: center;
 }
+
+.input-field label {
+  color: rgba(0, 0, 0, 0.726) !important;
+  font-size: larger !important;
+}
+
+
 
  /* foundation icons */
 
@@ -340,7 +376,6 @@ background-color: green;
 /*Footer*/
 .footer {
   background-color: #00c3acca;
-  background-size: cover;
 }
 
 .copyright p {
