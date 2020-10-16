@@ -46,7 +46,7 @@
                     Earum quos minima explicabo ratione maiores. Pariatur neque, illum doloremque tenetur accusamus
                     adipisci aut</p>
                 <div class="button center-align">
-                    <a href="#about" type="button" class="btn btn-outline-info btn-sm">Resume</a href="about">
+                    <a href="#about" type="button" class="btn btn-outline-info btn-sm"><i class="fas fa-download center"></i> Resume</a href="about">
                 </div>
 
                 <div class="tags container">
@@ -58,6 +58,7 @@
                         <i class="fab fa-bootstrap fa-fw fa-4x fa-border z-depth-3"></i>
                         <i class="fab fa-react fa-fw fa-4x fa-border z-depth-3"></i>
                         <i class="fab fa-angular fa-fw fa-4x fa-border z-depth-3"></i>
+                        <i class="fab fa-node fa-fw fa-4x fa-border z-depth-3"></i>
                     </div>
                     <h5>Top Skills</h5>
                     <div class="skills">
@@ -152,32 +153,27 @@
                 <p>or</p>
                 <h3>Send me a message</h3>
             </div>
-            <div class="container contac-form">
-                <form class="col s12 z-depth-5">
+            <div class="container contact-form">
+                <form class="col s12 z-depth-5" id="form-contact" action="https://formspree.io/f/moqpepnv" method="POST">
                     <div class="input-field col s6">
-                        <input id="first_name" type="text">
-                        <label for="first_name">Fist Name</label>
+                        <input id="first_name" type="text" name="name" placeholder="First name">
                     </div>
                     <div class="input-field col s6">
-                        <input id="last_name" type="text">
-                        <label for="last_name">Last Name</label>
+                        <input id="last_name" type="text" name="last name" placeholder="Last name">
                     </div>
                     <div>
                         <div class="input-field col s12">
-                            <input id="mobile-number" type="number">
-                            <label for="mobile-number">Mobile number</label>
+                            <input id="mobile-number" type="number" name="phone number" placeholder="Mobile number">
                         </div>
                     </div>
                     <div class="input-field col s12">
-                        <input id="email" type="email">
-                        <label for="email">Email</label>
+                        <input id="email" type="email" name="_replyto" placeholder="Your email">
                     </div>
                     <div class="input-field col s12">
-                        <textarea id="textarea1" class="materialize-textarea"></textarea>
-                        <label for="textarea1">Your message</label>
+                        <textarea id="textarea1" class="materialize-textarea" name="message" placeholder="Your message here"></textarea>
                     </div>
                     <div class="button center-align">
-                        <a href="#about" type="button" class="btn btn-outline-info btn-sm ">Send</a href="about">
+                        <button type="submit" class="btn btn-outline-info btn-sm">Send <i class="fas fa-paper-plane"></i></button>
                     </div>
                 </form>
 
@@ -190,8 +186,14 @@
                 <p>© 2020 Copyright | Granucci Florencia</p>
             </div>
         </section>
-
     </main>
+    <script>
+        const contactForm = document.getElementById('contact-form');
+
+        contactForm.addEventListener('submit', e => {
+         e.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
