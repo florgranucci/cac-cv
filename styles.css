@@ -41,7 +41,7 @@ body {
 }
 
 .home-title span {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .button-container {
@@ -172,6 +172,7 @@ body {
   color: #80cbc4 !important;
 }
 
+
 /*Contact*/
 
 .contact {
@@ -183,12 +184,13 @@ body {
   color: #1d1d1d;
 }
 
-.footer h2, .projects h2 {
+.projects h2 {
   color: rgb(24, 24, 24);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   padding-top: 5rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 
@@ -304,9 +306,19 @@ body {
 }
 
 .footer h2 {
+  text-align: center;
   font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 3rem;
+  margin: 25px;
 }
 .copyright p {
   text-align: center;
   padding: 20px;
+}
+
+.float-btn{
+  float: right;
+  margin-top: 20px;
+  padding-right: 20px;
 }
